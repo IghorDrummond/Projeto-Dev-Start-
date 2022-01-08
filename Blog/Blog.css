@@ -1,0 +1,217 @@
+		#geral{
+				
+				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+ 				width: 1152px;
+ 				height: 2500px;
+ 				margin: auto;
+ 				
+ 			 }
+ 		#degrade{
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
+ 				width: 1152px;
+ 				height: 20px;
+ 		     }		
+ 		#topo{
+ 				text-decoration: none;
+ 				width: 100%;
+ 				height: 50px;
+ 				float: top;
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+ 				text-align: center;
+ 		     }
+ 		#pesquisar{
+ 				font: heebo;
+ 				color: black;
+ 				position: relative;
+ 			 	right: 210px;	
+ 			 	bottom: 10px;
+ 				}			
+ 		#Formulario{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin:  5px;
+ 				}
+ 		#fluig{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin:  5px;
+ 				}
+ 		#Blog{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				}	
+ 		#home{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				float: center;
+ 				}
+ 		#principal{
+ 				position: relative;
+ 				text-align: center;
+ 				align-content: center;
+ 				bottom: 1750px;
+ 				right: 250;
+ 				}		
+ 		#titulo{
+ 				font: 30px heebo ;
+ 				color: black;
+ 				position: relative;
+ 				bottom: 550px;
+				}		
+ 		#news{
+ 				align-content: center;
+ 				text-align: center;
+ 				}	
+ 		#titulo2{
+ 				font: black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2200px;
+ 				}	
+ 		#data1{	
+ 				font: 10px black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2180px;
+		 		}		
+ 		#lente{	
+ 				width: 400px;
+ 				height: 200px;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2180px;
+ 				}						
+ 		#primeiran{	
+ 	 			font: black heebo;
+ 	 			position: relative;
+ 	 			right: 30px;
+ 	 			bottom: 2180px;
+ 				}	
+ 		#barra{
+ 				position: relative;
+ 				bottom: 2180px;
+ 				width: 800px;
+ 				}			
+ 		#titulo3{
+ 				position: relative;
+ 				font: black heebo;
+ 				right: 30px;
+ 				bottom: 2190px;
+ 				}	
+ 		#ameca{
+ 				width: 300px;
+ 				height: 300px;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2180px;
+ 				}	
+ 		#segundan{
+ 				font: black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2180px;
+ 				}
+ 		#barra2{
+ 				position: relative;
+ 				bottom: 2170px;
+ 				width: 800px;
+ 				}	
+ 		#titulo4{
+ 				position: relative;
+ 				bottom: 2180px;
+ 				right: 30px;
+ 				font: black heebo;
+ 				}								
+ 		#dois{
+ 				font: 10px black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2180px;
+ 				}		
+ 		#peixe{
+ 				font: black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				bottom: 2170px;
+ 				width: 400px;
+ 				width: 400px;
+ 				}
+ 		#tres{
+ 				font: 10px black heebo;
+ 				position: relative;
+ 				bottom: 2170px;
+ 				right: 30px;
+ 				}			
+ 		#terceiron{
+				position: relative;
+				right: 30px;
+				bottom: 2160px;
+				}		
+		#barra3{
+				position: relative;
+				bottom: 2150px;
+				width: 800px;
+				}		
+		#titulo5{
+				position: relative;
+				bottom: 2160px;
+				right: 30px;
+				font: black heebo;
+				}
+		#zoom{
+				position: relative;
+				bottom: 2150px;
+				right: 30px;
+				width: 400px;
+				height: 400px;
+				}	
+		#quatro{
+				font: 10px black heebo;
+				position: relative;
+				bottom: 2150px;
+				right: 30px;
+				}					
+		#quarton{
+				position: relative;
+				bottom: 2140px;
+				right: 30px;
+				font: black heebo;
+				}		
+		#barra4{
+				position: relative;
+				bottom: 2140px;
+				width: 800px;
+				}		
+
+ 		#final{
+ 				background: #fddb92 0%;
+ 				width: 1152px;
+ 				height: 110px;
+ 				position: relative;
+ 				text-align: center;
+ 				bottom: 2161px;
+ 				}
+ 		#icon1{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				position: relative;
+ 				bottom: 20px;
+ 				}		
+ 		#icon2{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon3{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon4{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}	

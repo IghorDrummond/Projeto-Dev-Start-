@@ -1,0 +1,294 @@
+				*{
+				margin:  0;
+				padding: 0; 
+				 }
+		#geral{
+				font-family: Heebo;
+ 				width: 1152px;
+ 				height: 2000px;
+ 				margin: auto;
+				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+ 				  }
+ 		#degrade{
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
+ 				width: 1152;
+ 				height: 20;
+ 				}	
+ 		#topo{
+ 				text-decoration: none;
+ 				width: 100%;
+ 				height: 50px;
+ 				float: top;
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+ 				text-align: center;
+ 				}
+ 		#pesquisar{
+ 				font: heebo;
+ 				color: black;
+ 				position: relative;
+ 			 	right: 215px;	
+ 			 	bottom: 10px;
+ 				}			
+ 		#Formulario{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin:  5px;
+ 				}
+ 		#fluig{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin:  5px;
+ 				}
+ 		#Blog{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				}	
+ 		#home{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				float: center;
+ 				}
+ 		#Principal{
+ 				float: right;
+ 				width: 1152;
+ 				height: 288px;
+ 				align-content: center;
+ 				
+ 				
+ 				}
+ 		#Principal h1{
+ 				font: 44px heebo;
+ 				color: #21243D;
+ 				width: 506px;
+ 				height: 105px;
+ 				position: relative;
+ 				left: 80px;
+ 				bottom: 200px;
+ 				text-align: center;
+ 				}
+ 		#Principal h4{
+ 				color: #21243D;
+ 				position: relative;
+ 				left: 80px;
+ 				bottom: 200px;
+ 				font: 16px heebo;
+ 				text-align: left;
+ 				}
+ 		#Principal img{
+ 				position: relative;
+ 				left: 650px;
+ 				float: top;
+ 				}
+ 		#curriculo{
+ 				position:  relative;
+ 				top: 80px;
+ 				left: 1px;
+ 				color: b;
+ 				font: 20px heebo;
+ 				text-decoration: none;
+ 				}
+ 		#grafico{
+ 				align-content: center;
+ 				width:1152px;
+ 				height: 200px;
+ 				}
+
+ 		#grafico h2{
+ 				color: black;
+ 				position: relative;
+ 				left: 500px;
+ 			    }
+ 		#ha1{
+ 				font: 30px black heebo;
+ 				}	
+ 		#gra1{
+ 				width: 300px;
+ 				height: 80px;
+ 				position: relative;
+ 				left: 100px;
+ 				bottom: 50px;
+ 				}
+ 		#ha2{
+ 				font: 30px black heebo;
+ 				}	
+ 		#gra2{
+ 				width: 303px;
+ 				height: 78px;
+ 				position: relative;
+ 				left: 99.5px;
+ 				bottom: 55px;
+ 				}
+ 		#ha3{	
+ 				font: 30px black heebo;
+ 				position: relative;
+ 				left: 740px;
+ 				bottom: 225px;
+ 				}
+ 		#gra3{
+ 				width: 300px;
+ 				height: 80px;
+ 				position: relative;
+ 				left: 868px;
+ 				bottom: 278px;
+ 				}
+ 		#ha4{
+ 				font: 30px black heebo;
+ 				position: relative;
+ 				position: relative;
+ 				left: 740px;
+ 				bottom: 240px;
+ 				}
+ 		#gra4{
+ 				width: 302px;
+ 				height: 82px;
+ 				position: relative;
+ 				left: 870px;
+ 				bottom: 295px;
+ 				}												    
+ 		#Sublinha{
+ 				position: relative;
+ 				top: 60px;
+ 				
+ 			    }  
+ 		#recomendacoes{
+ 				float: center;
+ 				color: black;
+ 				width:  100%;
+ 				}
+ 		#TrabalhoRe{
+ 				color: black;
+ 				position: absolute;
+ 				top: 90px;
+ 				left: 900px;
+ 				font: 30px heebo;
+ 			    }			
+ 		#selecao1{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 160px;
+ 				font: 30px heebo;
+ 				}
+ 		#imagemdesign{
+ 				position: relative;
+ 				left: 125px;
+ 				top: 160px;
+ 				width: 250px;
+ 				height: 200px;
+ 				}
+ 		#para1{
+ 				position: relative;
+ 				left: 145px;
+ 				top: 240px;
+ 				font: heebo;	
+ 				}			
+		#linha1{
+				position: relative;
+				top: 335px;
+				width: 800px;
+				right: 250px;
+				}
+		#linha2{
+				position: relative;
+				top: 300px;
+				width: 800px;
+				}	
+		#linha3{
+				position: relative;
+				top: 250;
+				width: 800px;
+				}
+		#linha4{
+				position: relative;
+				top: 190px;
+				width: 800px;
+				}								
+ 		#selecao2{
+ 				position: relative;
+ 				left: 145px;
+ 				top: 310px;
+ 				font: 30px heebo;
+ 				}
+ 		#imagemmarketing{
+ 				position: relative;
+ 				width: 250px;
+ 				height: 200px;
+ 				top: 310px;
+ 				right: 125px;
+ 				}
+ 		#para2{
+ 				position: relative;
+ 				top: 190px;
+ 				left: 395px;
+ 				font: black heebo;
+ 				}
+ 		#selecao3{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 280px;
+ 				font: 30px heebo;
+ 				}
+ 		#imagemoffice{
+ 				position: relative;
+ 				width: 250px;
+ 				height: 200px;
+ 				top: 280px;
+ 				left: 125px;	
+ 				}
+ 		#para3{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 165px;
+ 				font: heebo;
+ 				}
+ 		#selecao4{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 220px;
+ 				font: 30px heebo;
+ 				}
+ 		#imamgemweb{
+ 				position: relative;
+ 				top: 220px;
+ 				left: 125px;
+ 				width: 250px;
+ 				height: 200px;	
+ 				}
+ 		#para4{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 100px;
+ 				font: heebo;
+ 				}
+ 		#final{
+ 				background: #fddb92 0%;
+ 				width: 100%;
+ 				height: 110px;
+ 				position: relative;
+ 				text-align: center;
+ 				top: 180px;
+ 				
+ 				}
+ 		#icon1{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				position: relative;
+ 				bottom: 20px;
+ 				}		
+ 		#icon2{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon3{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon4{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}	
