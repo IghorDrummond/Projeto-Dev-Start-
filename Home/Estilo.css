@@ -8,6 +8,7 @@
  				height: 2000px;
  				margin: auto;
 				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+				border: 2px solid black;
  				  }
  		#degrade{
  				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
@@ -104,6 +105,9 @@
  				align-content: center;
  				width:1152px;
  				height: 200px;
+ 				position: relative;
+ 				right: 2px;
+ 				
  				}
 
  		#grafico h2{
@@ -266,11 +270,13 @@
  				}
  		#final{
  				background: #fddb92 0%;
- 				width: 100%;
+ 				border: 2px solid black;
+ 				width: 1152;
  				height: 110px;
  				position: relative;
  				text-align: center;
  				top: 145px;
+ 				right: 2px;
  				
  				}
  		#icon1{
