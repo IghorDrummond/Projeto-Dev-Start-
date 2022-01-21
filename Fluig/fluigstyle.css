@@ -1,0 +1,101 @@
+			#geral{
+				width: 1152px;
+				height: 900px;
+				background-color: blue;
+				border: 2px solid black;
+				align-content: center;
+				text-alingn: center;
+				margin: auto;
+				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+			}
+			#degrade{
+					background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
+	 				width: 1152px;
+	 				height: 20px;
+			}
+			#endereço{
+					text-decoration: none;
+					text-align: center;
+					text-decoration: none;
+	 				width: 1152px;
+	 				height: 50px;
+	 				float: top;
+	 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+					}
+			#pesquisar{
+	 				font: heebo;
+	 				color: black;
+	 				position: relative;
+	 			 	right: 210px;	
+	 			 	bottom: 10px;
+	 				}			
+	 		#Formulario{
+	 				text-decoration: none;
+	 				color: black;
+	 				margin:  5px;
+	 				}
+	 		#fluig{
+	 				text-decoration: none;
+	 				color: black;
+	 				margin:  5px;
+	 				}
+	 		#Blog{
+	 				text-decoration: none;
+	 				color: black;
+	 				margin: 5px;
+	 				}	
+	 		#home{
+	 				text-decoration: none;
+	 				color: black;
+	 				margin: 5px;
+	 				float: center;
+	 				}
+	 		#principal{
+	 				width: 1152px;
+	 				height: 800px;
+	 				text-align: center;
+	 				align-content: center;
+	 				align-items: center;
+	 				text-decoration: none;
+	 				}	
+	 		#video{
+	 				width: 800px;
+	 				height: 600px;
+			 		}
+			#final{
+ 					background: #fddb92 0%;
+ 					border: 2px solid black;
+ 					width: 1152px;
+ 					height: 110px;
+					text-align: center;
+					position: relative;
+					right: 2px;
+					
+					}
+	 		#icon1{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				position: relative;
+	 				bottom: 20px;
+	 				}		
+	 		#icon2{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				}			
+	 		#icon3{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				}			
+	 		#icon4{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				}	
+			#corpo{
+				    margin: auto;
+					width: 1152px;
+					height: 2400px;
+					}	
