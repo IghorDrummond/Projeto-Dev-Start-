@@ -6,20 +6,20 @@
 					height: 2027px;
 					margin: auto;
 					border: 2px solid black;
-				}
+					}
 			#degrade{
 					background-color: red;
 					background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
 	 				width: 1152px;
 	 				height: 20px;
-				}
+					}
 			#endereço{
 					text-decoration: none;
 	 				width: 1152px;
 	 				height: 50px;
 	 				float: top;
 	 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-	 			}
+	 				}
 	 		#pesquisar{
 	 				font: heebo;
 	 				color: black;
@@ -53,7 +53,7 @@
 					align-items: center;
 					width: 1152px;
 					height: 300px;
-				}
+					}
 			#bloco{
 					text-align: center;
 					background-color: #F3F3F3;
@@ -62,8 +62,9 @@
 					position: relative;
 					left: 80px;
 					border: 1px solid black;
+					border-radius: 25px 25px 25px 25px;
 					top: 100px;
-				}
+					}
 			#configuração{
 					width: 1152px;
 					height: 400px;
@@ -85,57 +86,56 @@
 					height: 30px;
 					border: 1px solid black;
 					font: 20px black;
-				}
+					}
 			#Empresa{
 					width: 550px;
 					height: 30px;
 					border: 1px solid black;
 					font: 20px black;
-				}
+					}
+					
 			#area{
 					width: 550px;
 					height: 30px;
 					border: 1px solid black;
 					font: 20px black;
-				}
+					}
 			#letra{
 					font: 15px black;
-				}
-
-				}
+					}
 			#despesa{
 					background-color: yellow;
-					border: 2px solid black;
 					width: 1152px;
 					height: 700px;
-				}
+					}
 			#relatorio{
 					align-content: center;
 					text-align: center;
-				}
+					}
 			#botão{
 					font: 25px;
 					float: left;
 					width: 40px;
 					height: 40px;
 					background-color: red;
-
-				}	
-
+					}	
 			#seleção{
 					height: 40px;.
 					font: 15px black ;
-					float: left;
-					position: relative;	
-					left: 60px;
 					border: 2px solid black;
-				}
+					border-radius: 15px 15px 15px 15px;
+					}
 			#descrição1{
-					width: 200px;
+					width: 100px;
 					height: 40px;
 					font: 15px black;
-					float: left;
-					position: relative;
-					left: 150px;
 					border: 2px solid black;
-				}
+					border-radius: 15px 15px 15px 15px;
+					}
+			#vlunitario1{
+					width: 100px;
+					height: 40px;
+					font: 15px black;
+					border: 2px solid black;
+					border-radius: 15px 15px 15px 15px;
+					}

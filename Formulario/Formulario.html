@@ -1,9 +1,8 @@
 <html>
 	<head>
 		<title>Formulario</title>
-		<script type="text/js" href="jsformulario.js"></script>
+		<script type="text/javascript" src="jsformulario.js"></script>
 		<link rel="stylesheet" type="text/css" href="Formulario Style.css">
-
 	</head>
 	<body>
 		<div id="geral">
@@ -28,14 +27,14 @@
 				<h3> Solicitante </h3>
 				<div id="campo">	
 					<p id="letra">Solicitante</p>
-					<input id="solicitante" type="text">
+					<input id="solicitante" class="form-control"  type="text">
 					<p id="letra2">E-mail</p>
 					<input id="E-mail" type="text">
 					<p id="letra3">Empresa</p>
 					<input id="Empresa" type="text">
 					<p id="letra4">Area de Atuação</p>
 					<input id="area" type="text">
-					<select id="area">
+						<select id="area">
 						<option>Desenvolvimento Software</option>
 						<option>Desenvolvimento Hardware</option>
 						<option>Desenvolvimento Software e Hardware</option>
@@ -52,31 +51,41 @@
 						<option>Propagandas e Anuncios</option>  
 						<option>BPM (Business Process Management)</option>
 					</select>
-				</div>
-			</div>	
-			<div id="despesa">
-				<h3>Despesas</h3>
-				<div id="relatorio">
-					<table cellspacing="60" cellpadding="55">
-						<thead>
-							<th colspan="2">Categoria</th>
-							<th>Descrição</th>
-							<th>Vl Unitario</th>
-							<th>Quantidade</th>
-							<th>Vl Total</th>
-						</thead>
-						</table>	
-							<button id="botão" type="button" onclick="">X</button>
-							<select id="seleção">
-								<option>Hospedagem</option>
-								<option>Pedagio </option>
-								<option>Combustivel</option>
-								<option>Alimentação </option>
-								<option>Outra </option>
-							</select>
-							<input id="descrição1" type="text">	
-				</div>
-			</div>	
-		</div>
+				</div>	
+				<div id="despesa">
+					<h3>Despesas</h3>
+					<div id="relatorio">
+						<button id="incluir" onclick="adicionar()">Incluir</button>
+						<br />
+						<table cellpadding="25"cellspancing="20">
+							<thead>
+								<th> </th>
+								<th>Categoria</th>
+								<th>Descrição</th>
+								<th>Vl Unitario</th>
+								<th>Quantidade</th>
+								<th>Vl Total</th>
+							</thead>
+							<tbody>
+								<tr> 
+									<td><button id="botão" type="button" onclick="">X</button></td>
+									<td><select id="seleção">
+										<option>Hospedagem</option>
+										<option>Pedagio </option>
+										<option>Combustivel</option>
+										<option>Alimentação </option>
+										<option>Outra </option>
+									</select></td>
+								<td><input id="descrição1" type="text"></td>	
+								<td><input id="vlunitario1" type="number" class="teste" onchange="total()"></td>
+								<td><input id="quantidade" type="number" onchange="total()"></td> 
+								<td><input id="total" type="number" onchange="total()"></td>
+								<td><button id="resultado" type="button" onclick="adicionar()">Calcular</button></td>
+							</tr>
+							</tbody>
+							</table>
+					</div>
+				</div>	
+			</div>
 	</body>
 </html>				
