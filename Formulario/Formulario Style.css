@@ -3,10 +3,11 @@
 					align-content: center;
 					background-color: blue;
 					width: 1152px;
-					height: 2027px;
+					height: ;
 					margin: auto;
 					border: 2px solid black;
 					}
+			/*--cabeçalho da pagina*/		
 			#degrade{
 					background-color: red;
 					background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
@@ -48,6 +49,7 @@
 	 				margin: 5px;
 	 				float: center;
 	 				}
+	 		/*Parte Principal do site */		
 			#titulo{
 					text-align: center;
 					align-items: center;
@@ -75,46 +77,64 @@
 					align-content: left;
 					text-align: left;
 				}
+			/* configurações de dados/ email, nome e etc*/	
 			#solicitante{
 					width: 550px;
 					height: 30px;
 					border: 1px solid black;
+					border-radius: 10px 10px 10px 10px;
 					font: 20px black;
 				}
 			#E-mail{
 					width: 550px;
 					height: 30px;
 					border: 1px solid black;
+					border-radius: 10px 10px 10px 10px;
 					font: 20px black;
 					}
 			#Empresa{
 					width: 550px;
 					height: 30px;
 					border: 1px solid black;
+					border-radius: 10px 10px 10px 10px;
 					font: 20px black;
 					}
-					
 			#area{
 					width: 550px;
 					height: 30px;
 					border: 1px solid black;
+					border-radius: 10px 10px 10px 10px;
 					font: 20px black;
 					}
-			#letra{
-					font: 15px black;
-					}
+			/* campo de despesa */		
 			#despesa{
 					background-color: yellow;
 					width: 1152px;
-					height: 700px;
+					height: auto;
 					}
 			#relatorio{
 					align-content: center;
 					text-align: center;
 					}
+			#incluir{
+					width: 150px;
+					height: 50px;
+					float: center;
+					background-color: green;
+					font: 20px white;
+					border: 2px solid black;
+					border-radius: 5px 5px 5px 5px;
+					}
+			/* Linha de Despesas */
+			#bloco2{
+				 	width: 1152px;
+				 	height: auto;
+				 	background-color: white;
+				 	border: 4px solid black;
+
+					}				
 			#botão{
 					font: 25px;
-					float: left;
 					width: 40px;
 					height: 40px;
 					background-color: red;
@@ -126,7 +146,7 @@
 					border-radius: 15px 15px 15px 15px;
 					}
 			#descrição1{
-					width: 100px;
+					width: 300px;
 					height: 40px;
 					font: 15px black;
 					border: 2px solid black;
@@ -139,3 +159,53 @@
 					border: 2px solid black;
 					border-radius: 15px 15px 15px 15px;
 					}
+			#quantidade1{
+					width: 100px;
+					height: 40px;
+					font: 15px black;
+					border-radius: 15px 15px 15px 15px;
+					border: 2px solid black;
+					}
+			#subtotal{
+					width: 100px;
+					height: 40px;
+					font: 15px black;
+					border-radius: 15px 15px 15px 15px;
+					border: 2px solid black; 
+					}				
+			/* rodapé */	
+			#final{
+	 				background: #fddb92 0%;
+	 				border: 2px solid black;
+	 				width: 1152;
+	 				height: 110px;
+					text-align: center;
+					}
+	 		#icon1{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				position: relative;
+	 				bottom: 20px;
+	 				}		
+	 		#icon2{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				}			
+	 		#icon3{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				}			
+	 		#icon4{
+	 				width: 30px;
+	 				height: 30px;
+	 				margin: 10px;
+	 				}	
+			#corpo{
+				    margin: auto;
+					width: 1152px;
+					height: 2400px;
+					}	
+			

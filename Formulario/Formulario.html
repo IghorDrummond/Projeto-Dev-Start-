@@ -28,11 +28,11 @@
 				<div id="campo">	
 					<p id="letra">Solicitante</p>
 					<input id="solicitante" class="form-control"  type="text">
-					<p id="letra2">E-mail</p>
+					<p >E-mail</p>
 					<input id="E-mail" type="text">
-					<p id="letra3">Empresa</p>
+					<p >Empresa</p>
 					<input id="Empresa" type="text">
-					<p id="letra4">Area de Atuação</p>
+					<p >Area de Atuação</p>
 					<input id="area" type="text">
 						<select id="area">
 						<option>Desenvolvimento Software</option>
@@ -55,37 +55,51 @@
 				<div id="despesa">
 					<h3>Despesas</h3>
 					<div id="relatorio">
-						<button id="incluir" onclick="adicionar()">Incluir</button>
+						<button id="incluir" onclick="incluir()">Incluir Tabela</button>
 						<br />
-						<table cellpadding="25"cellspancing="20">
-							<thead>
-								<th> </th>
-								<th>Categoria</th>
-								<th>Descrição</th>
-								<th>Vl Unitario</th>
-								<th>Quantidade</th>
-								<th>Vl Total</th>
-							</thead>
-							<tbody>
-								<tr> 
-									<td><button id="botão" type="button" onclick="">X</button></td>
-									<td><select id="seleção">
-										<option>Hospedagem</option>
-										<option>Pedagio </option>
-										<option>Combustivel</option>
-										<option>Alimentação </option>
-										<option>Outra </option>
-									</select></td>
-								<td><input id="descrição1" type="text"></td>	
-								<td><input id="vlunitario1" type="number" class="teste" onchange="total()"></td>
-								<td><input id="quantidade" type="number" onchange="total()"></td> 
-								<td><input id="total" type="number" onchange="total()"></td>
-								<td><button id="resultado" type="button" onclick="adicionar()">Calcular</button></td>
-							</tr>
-							</tbody>
+						<div id="bloco2">
+							<table cellpadding="35">
+								<thead>
+									<th> </th>
+									<th>Categoria</th>
+									<th>Descrição</th>
+									<th>Vl Unitario</th>
+									<th>Quantidade</th>
+									<th>Total 	</th>
+								</thead>
+								<tbody>
+									<tr> 
+										<td><button id="botão" type="button" onclick="">X</button></td>
+										<td><select id="seleção">
+											<option>Hospedagem</option>
+											<option>Pedagio </option>
+											<option>Combustivel</option>
+											<option>Alimentação </option>
+											<option>Outra </option>
+											</select></td>
+										<td><input id="descrição1" type="text"></td>	
+										<td><input id="vlunitario1" type="number" class="ValUn" onchange="total()" value="0"></td>
+										<td><input id="quantidade1" type="number" class="quanti" onchange="total()" value="1"></td> 
+										<td><input id="subtotal" type="number" class="subtotal" onchange="" value="0"></td>
+									</tr>
+								</tbody>
 							</table>
+						</div>	
 					</div>
-				</div>	
+				</div>
+				<footer id="final">
+					<div>
+			 			<a href="https://www.facebook.com/ighor.drummond.1/" target="_blank" title="Facebook">
+			 				<img id="icon1" align="center" src="flaticon-facebook.png" alt="ighor.drummond.1"></a>
+			 			<a href="https://twitter.com/DrummondIghor" target="_blank" title="Twitter">
+			 				<img id="icon2" aling="center" src="flaticon-twitter.png" alt="DrummondIghor"></a>
+			 			<a href="https://www.linkedin.com/in/ighor-drummond-b75326221/" target="_blank" title="Linkedln">
+			 				<img id="icon3" src="flaticon-linkedin.png" alt="ighor-drummond"></a>
+			 			<a href="https://github.com/IghorDrummond" target="_blank" title="GitHub">
+							<img id="icon4" src="github-icon-png-7-removebg-preview.png" alt="IghorDrummond"></a>
+						<h5>Copyright© 2022 Todos os Direitos Reservados</h5>	 	 	
+					</div>	
+				</footer>	
 			</div>
 	</body>
 </html>				
