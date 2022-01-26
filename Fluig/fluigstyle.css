@@ -64,6 +64,7 @@
 	 		#video{
 	 				width: 700px;
 	 				height: 400px;
+	 				border: 10px solid black;
 			 		}
 			#final{
  					background: #fddb92 0%;
