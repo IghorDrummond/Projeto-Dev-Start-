@@ -5,11 +5,14 @@
 		#geral{
 				font-family: Heebo;
  				width: 1152px;
- 				height: 2000px;
+ 				height: 2400px;
  				margin: auto;
 				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
 				border: 2px solid black;
  				  }
+ 		#pintar{
+ 				background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+ 				}		  
  		#degrade{
  				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
  				width: 1152;
@@ -56,8 +59,6 @@
  				width: 1152;
  				height: 288px;
  				align-content: center;
- 				
- 				
  				}
  		#Principal h1{
  				font: 44px heebo;
@@ -101,59 +102,68 @@
  				font: 20px black heebo;
  				text-decoration: none;
  				}
+ 		/*Grafico de Especialidade*/	
  		#grafico{
  				align-content: center;
  				width:1152px;
- 				height: 200px;
- 				position: relative;
- 				right: 2px;
- 				
+ 				height: 500px;
+ 				text-align: center;	
  				}
+ 		#tabela{
+ 				width: 1152px;
+ 				height: 500px;
+ 				text-align: left;
 
- 		#grafico h2{
- 				color: black;
- 				position: relative;
- 				left: 500px;
- 			    }
- 		#ha1{
- 				font: 30px black heebo;
- 				}	
- 		#gra1{
- 				position: relative;
- 				left: 100px;
- 				bottom: 50px;
+ 				}		
+		#htmlgra{
+ 				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ 				width: 400px;
+ 				height: 50px;
+ 				text-align: center;
+ 				font: 20px black;
  				}
- 		#ha2{
- 				font: 30px black heebo;
- 				}	
- 		#gra2{
- 				position: relative;
- 				left: 99.5px;
- 				bottom: 55px;
+ 		#cssgra{
+ 				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ 				width: 330px;
+ 				height: 50px;
+ 				font: 20px black;
+ 				text-align: center;
  				}
- 		#ha3{	
- 				font: 30px black heebo;
- 				position: relative;
- 				left: 740px;
- 				bottom: 225px;
- 				}
- 		#gra3{
- 				position: relative;
- 				left: 868px;
- 				bottom: 278px;
- 				}
- 		#ha4{
- 				font: 30px black heebo;
- 				position: relative;
- 				position: relative;
- 				left: 740px;
- 				bottom: 240px;
- 				}
- 		#gra4{
- 				position: relative;
- 				left: 870px;
- 				bottom: 295px;
- 				}												    
+ 		#javagra{
+ 				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ 				width: 50px;
+ 				height: 50px;
+ 				text-align: center;
+ 				font: 20px black;
+				}
+		#jquerygra{
+				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+				width: 40px;
+				height: 50px;
+				text-align: center;
+				font: 20px black;
+				}		
+	 	#campo1{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			}
+	 	#campo2{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			}
+	 	#campo3{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			}
+	 	#campo4{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			}						  
+	
  		#Sublinha{
  				position: relative;
  				top: 60px;

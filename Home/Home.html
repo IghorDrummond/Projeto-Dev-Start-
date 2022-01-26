@@ -5,7 +5,7 @@
  		<title>Home</title>
  		<link rel="stylesheet" type="text/css" href="Estilo.css">
  	</head>
- 	<body>
+ 	<body id="pintar">
  		<script>
  			function myDownload(){
  				document.getElementById("texto").innerHTML = "Obrigado por visualizar meu curriculo!";
@@ -42,15 +42,28 @@
 			<!--Grafico de Capacidade-->	
 			 		<div id="grafico">
 						<h2>Minhas Habilidades</h2>
-						<p id="ha1">HTML</p>
-						<img id="gra1" src="html-removebg-preview.png" alt="html grafico">
-						<p id="ha2">CSS</p>
-						<img id="gra2"src="css-removebg-preview-removebg-preview.png" alt="CSS grafico">
-						<p id="ha3">JavaScript</p>
-						<img id="gra3" src="javascript-removebg-preview-removebg-preview.png" alt="JavaScript">
-						<p id="ha4">Jquery</p>		
-						<img id="gra4"src="jquery-removebg-preview-removebg-preview.png" alt="Jquery grafico">			
+						<table id="tabela" cellspacing="50">
+							<thead>
+								<tr>
+									<th><p id="ha1">HTML</p></th>
+									<th><p id="ha2">CSS</p></th>
+								</tr>
+							</thead>			
+							<tbody>
+									<td><div id="campo1"><div id="htmlgra">100%</div></div></td>	
+									<td><div id="campo2"><div id="cssgra">70%</div></div></td>
+							</tbody>	
+							<thead>
+									<th><p id="ha3">JavaScript</p></th>
+									<th><p id="ha4">Jquery</p></th>	
+							</thead>
+							<tbody>
+									<td><div id="campo3"><div id="javagra">30%</div></div></td>
+									<td><div id="campo4"><div id="jquerygra">10%</div></div></td>
+							</tbody>
+						</table>
 					</div>
+					
 			<!--Recomendações e rodape--> 			
 			 <hr / id="Sublinha">		
 			 			<div id="recomendacoes">

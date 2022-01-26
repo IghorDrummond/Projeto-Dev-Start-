@@ -8,6 +8,9 @@
 				margin: auto;
 				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
 			}
+			#pintar{
+					background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+					}
 			#degrade{
 					background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
 	 				width: 1152px;
